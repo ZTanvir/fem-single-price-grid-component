@@ -67,3 +67,13 @@ h6 {
 #__next {
   isolation: isolate;
 }
+:root {
+  --cc--cyan: hsl(179, 62%, 43%);
+  --cc-bright-yellow: hsl(71, 73%, 54%);
+  --cc-light-gray: hsl(204, 43%, 93%);
+  --cc-grayish-blue: hsl(218, 22%, 67%);
+
+  --ff-karla: "Karla";
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
