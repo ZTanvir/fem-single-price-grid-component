@@ -94,12 +94,24 @@ body {
   display: grid;
   gap: 1rem;
 }
+.joinus__title {
+  color: var(--cc--cyan);
+}
+.joinus__text {
+  color: var(--cc-bright-yellow);
+}
+.joinus__description {
+  opacity: 0.5;
+}
 .price-card__subscription {
   background-color: var(--cc--cyan);
+  display: grid;
+  gap: 1rem;
 }
 .price-card__whyus {
   background-color: var(--cc--light--cyan);
 }
 :is(.price-card__joinus, .price-card__subscription, .price-card__whyus) {
   padding: 1.5rem;
+  font-size: 1rem;
 }
