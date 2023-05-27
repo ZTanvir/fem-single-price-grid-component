@@ -107,9 +107,39 @@ body {
   background-color: var(--cc--cyan);
   display: grid;
   gap: 1rem;
+  color: white;
+}
+.subscription-pricetime {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.subscription-pricetime__price {
+  font-size: 2rem;
+}
+.subscription-pricetime__duration {
+  opacity: 0.7;
+}
+.subscription__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: var(--cc-bright-yellow);
 }
 .price-card__whyus {
   background-color: var(--cc--light--cyan);
+}
+.whyus__title {
+  color: white;
+  margin-bottom: 1rem;
+}
+.whyus__reason {
+  color: white;
+  opacity: 0.7;
 }
 :is(.price-card__joinus, .price-card__subscription, .price-card__whyus) {
   padding: 1.5rem;
