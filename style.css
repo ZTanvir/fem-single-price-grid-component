@@ -86,13 +86,20 @@ body {
 }
 .price-card {
   max-width: 80%;
+  border-radius: 0.25rem;
+  overflow: hidden;
 }
 .price-card__joinus {
   background-color: var(--cc-light-gray);
+  display: grid;
+  gap: 1rem;
 }
 .price-card__subscription {
   background-color: var(--cc--cyan);
 }
 .price-card__whyus {
   background-color: var(--cc--light--cyan);
+}
+:is(.price-card__joinus, .price-card__subscription, .price-card__whyus) {
+  padding: 1.5rem;
 }
