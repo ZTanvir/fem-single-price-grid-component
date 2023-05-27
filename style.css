@@ -69,6 +69,7 @@ h6 {
 }
 :root {
   --cc--cyan: hsl(179, 62%, 43%);
+  --cc--light--cyan: hsl(189, 57%, 64%);
   --cc-bright-yellow: hsl(71, 73%, 54%);
   --cc-light-gray: hsl(204, 43%, 93%);
   --cc-grayish-blue: hsl(218, 22%, 67%);
@@ -76,4 +77,22 @@ h6 {
   --ff-karla: "Karla";
   --fw-regular: 400;
   --fw-bold: 700;
+}
+body {
+  display: grid;
+  place-items: center;
+  font-family: var(--ff-karla, sans-serif);
+  background-color: var(--cc-grayish-blue);
+}
+.price-card {
+  max-width: 80%;
+}
+.price-card__joinus {
+  background-color: var(--cc-light-gray);
+}
+.price-card__subscription {
+  background-color: var(--cc--cyan);
+}
+.price-card__whyus {
+  background-color: var(--cc--light--cyan);
 }
