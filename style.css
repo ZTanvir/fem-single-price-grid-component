@@ -130,6 +130,9 @@ body {
   color: white;
   background-color: var(--cc-bright-yellow);
   margin-top: 1rem;
+}
+.subscription__btn:hover,
+.subscription__btn:focus {
   cursor: pointer;
 }
 .price-card__whyus {
@@ -148,3 +151,16 @@ body {
   font-size: 1rem;
 }
 /* Responsive for pc */
+@media only screen and (min-width: 1024px) {
+  .price-card {
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .price-card__joinus {
+    grid-column: 1/-1;
+  }
+  :is(.price-card__joinus, .price-card__subscription, .price-card__whyus) {
+    padding: 2.5rem;
+  }
+}
