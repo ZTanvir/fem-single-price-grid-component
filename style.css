@@ -129,6 +129,8 @@ body {
   border-radius: 0.25rem;
   color: white;
   background-color: var(--cc-bright-yellow);
+  margin-top: 1rem;
+  cursor: pointer;
 }
 .price-card__whyus {
   background-color: var(--cc--light--cyan);
@@ -145,3 +147,4 @@ body {
   padding: 1.5rem;
   font-size: 1rem;
 }
+/* Responsive for pc */
